@@ -6,9 +6,9 @@ body {
 .page {
   width: auto;
   margin: 0;
-  background-color: black;
+  background-color: #000;
   background-size: cover;
-  color: rgba(197,230,247,255);
+  color: rgba(197, 230, 247, 255);
   justify-content: center;
 }
 
@@ -33,7 +33,7 @@ body {
 
 .header__heading {
   padding-top: 50px;
-  color: rgba(197,230,247,255)
+  color: rgba(197, 230, 247, 255);
 }
 
 .header__description {
@@ -45,7 +45,7 @@ body {
   padding-left: 10%;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 1px solid rgba(197,230,247,255);
+  border: 1px solid rgba(197, 230, 247, 255);
   border-right: transparent;
   border-left: transparent;
   margin-left: 20px;
@@ -73,19 +73,39 @@ body {
   padding: 0;
   width: 200px;
   height: 200px;
-  border: 1px solid rgba(197,230,247,255);
+  border: 1px solid rgba(197, 230, 247, 255);
   border-radius: 20px;
   background-image: url();
 }
-
+.portfolio__card--coffeeshop {
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgba(197, 230, 247, 255);
+  border-radius: 20px;
+  background-image: url(./images/coffeeshoprecipes.png);
+  background-position: center;
+}
 .portfolio__card--aroundtheus {
   margin: 0 auto;
   padding: 0;
   width: 200px;
   height: 200px;
-  border: 1px solid rgba(197,230,247,255);
+  border: 1px solid rgba(197, 230, 247, 255);
   border-radius: 20px;
   background-image: url(./images/aroundtheuscardimg.png);
+  background-position: center;
+}
+
+.portfolio__card--practicumlibrary {
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgba(197, 230, 247, 255);
+  border-radius: 20px;
+  background-image: url(./images/librarycardimg.png);
   background-position: center;
 }
 
@@ -99,19 +119,19 @@ body {
 }
 
 .portfolio__card--link {
-  color: rgba(197,230,247,255);
+  color: rgba(197, 230, 247, 255);
   text-decoration: none;
 }
 
 .portfolio__card--link:hover {
-  color: rgba(197,230,247,255);
+  color: rgba(197, 230, 247, 255);
   text-decoration: none;
   transform: scale(1.1);
   transition: 0.5s;
 }
 
 .portfolio__card--link:active {
-  color: rgba(197,230,247,255);
+  color: rgba(197, 230, 247, 255);
   text-decoration: none;
 }
 
