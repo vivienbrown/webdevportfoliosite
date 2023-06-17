@@ -114,6 +114,16 @@ body {
   background-position: center;
 }
 
+.portfolio__card--amazonaffiliate {
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgba(197, 230, 247, 255);
+  border-radius: 20px;
+  background-image: url(./images/amazon-aff-image.png);
+}
+
 .portfolio__card--title {
   display: flex;
   justify-content: center;
